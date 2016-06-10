@@ -32,7 +32,7 @@ public class VisitorDetailActivity extends AppCompatActivity {
     private   Bitmap bitmap;
     private TextView mDayTextView;
     private TextView mDateTextView;
-
+ //abc
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
