@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/rounded_corner_view">
+        <com.eighteentechnology.onlinegaurd.customview.RoundedImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/image_view_vistor_checkin_dialogue"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_logo"/>
+        <TextView
+
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/image_view_vistor_checkin_dialogue"
+            android:id="@+id/visitor_name_vistor_checkin_dialogue"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:text="Welcome Mr Vikas Kesharvani One Step more &amp; you will be in."/>
+        <LinearLayout
+            android:id="@+id/layout_whome_you_meet"
+            android:layout_below="@+id/visitor_name_vistor_checkin_dialogue"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="@dimen/app_edit_text_height"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/lable_whhom_you_meet"
+
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:text="Whome you want to meet"/>
+
+            <Spinner
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner_parent_data"
+              />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout_purpuse"
+            android:layout_below="@+id/layout_whome_you_meet"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="@dimen/app_edit_text_height"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/lable_person"
+
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:text="Purpuse"/>
+
+            <Spinner
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner_Purpuse"
+                />
+        </LinearLayout>
+        <com.dd.ShadowLayout
+           android:id="@+id/shadow"
+            android:layout_below="@+id/linear_layout_purpuse"
+
+            android:layout_centerInParent="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sl_shadowRadius="4dp"
+            app:sl_shadowColor="#AA000000"
+            app:sl_dx="0dp"
+            app:sl_dy="0dp"
+            >
+
+            <Button
+
+                android:id="@+id/button_check_in"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_button_height"
+                android:background="@drawable/rounded_button"
+                android:text="Check In"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+        </com.dd.ShadowLayout>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/shadow"
+            android:gravity="center_horizontal"
+            android:id="@+id/thannk_you"
+            android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Thank you ! "/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/thannk_you"
+            android:gravity="center_horizontal"
+            android:id="@+id/you_can_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="You Can Proceed to meet your host !"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/you_can_proceed"
+            android:gravity="center_horizontal"
+            android:id="@+id/or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Or"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/you_can_proceed"
+            android:gravity="center_horizontal"
+            android:id="@+id/take_shhet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Please Take a Sheet &amp; host will be been soon."/>
+    </LinearLayout>
+</RelativeLayout>

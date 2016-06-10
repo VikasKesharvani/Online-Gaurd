@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OnlineGaurd</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_vistor">VistorActivity</string>
+    <string name="title_activity_visitor_detail">VisitorDetailActivity</string>
+    <string name="large_text">s simply dummy text of the printing and typesetting industry.scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="clint_id">AZH_Fhlo1wkZqtbOE3mKDeej-_h4jyew7KV3Cx-oQVwLRmpYC2IamPyP9tY19O03rGWjhUboDzYnQ1Sf</string>
+    <string name="secreat_key">EDU8WTcHe4L-5721Zx3miZh3j2-CPAqtOQCOqRuPjrVU76cCgEh_Qr-JhhmHtROxlZsh-8Uc85XDePi3</string>
+</resources>
