@@ -10,4 +10,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="clint_id">AZH_Fhlo1wkZqtbOE3mKDeej-_h4jyew7KV3Cx-oQVwLRmpYC2IamPyP9tY19O03rGWjhUboDzYnQ1Sf</string>
     <string name="secreat_key">EDU8WTcHe4L-5721Zx3miZh3j2-CPAqtOQCOqRuPjrVU76cCgEh_Qr-JhhmHtROxlZsh-8Uc85XDePi3</string>
+    <string name="title_activity_vistor_badge">VistorBadgeActivity</string>
 </resources>

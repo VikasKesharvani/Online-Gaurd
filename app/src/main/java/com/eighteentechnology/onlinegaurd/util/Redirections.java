@@ -6,6 +6,7 @@ import android.content.Intent;
 import com.eighteentechnology.onlinegaurd.R;
 import com.eighteentechnology.onlinegaurd.activity.VisitorActivity;
 import com.eighteentechnology.onlinegaurd.activity.VisitorDetailActivity;
+import com.eighteentechnology.onlinegaurd.activity.VisitorBadgeActivity;
 
 
 public class Redirections {
@@ -77,7 +78,14 @@ public class Redirections {
 				R.anim.slide_out_right);
 	}
 
-	
+	public static void redirectToBadgeActivity(Activity activity) {
+		// TODO Auto-generated method stub
+		Intent redirectMe = new Intent(activity, VisitorBadgeActivity.class);
+
+		activity.startActivity(redirectMe);
+		activity.overridePendingTransition(R.anim.slide_in_left,
+				R.anim.slide_out_right);
+	}
 	
 	
 //	public static void redirectToReplyMessage(Activity activity) {
