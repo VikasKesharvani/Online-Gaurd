@@ -33,6 +33,7 @@ public class VisitorDetailActivity extends AppCompatActivity {
     private TextView mDayTextView;
     private TextView mDateTextView;
  //abc
+    //bhjbhjv
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
